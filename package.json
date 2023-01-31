@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "proxy": "https://portfolio-server-seven-self.vercel.app",
+  "proxy": "https://portfolio-server-9kgf7noik-vipulmashruwalaportfolio.vercel.app",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

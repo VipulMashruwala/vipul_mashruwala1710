@@ -23,7 +23,7 @@ const App = () => {
          
       <Header />
             <Switch>
-                <Route exact path="/vipul_mashruwala" >
+                <Route exact path="/vipul_mashruwala1710" >
                   <Redirect to="/home"/>
                 </Route>
                 
