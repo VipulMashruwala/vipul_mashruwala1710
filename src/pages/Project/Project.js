@@ -21,7 +21,7 @@ const Project = () => {
             method: 'GET',
          })
          .then(response => {
-            // console.log(response.data)
+            console.log(response.data.project)
             setProject(response.data.project)
          }) 
          .catch(err => {

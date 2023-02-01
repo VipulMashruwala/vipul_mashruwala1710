@@ -13,7 +13,7 @@ const Skills = () => {
             method: 'GET',
          })
          .then(response => {
-            // console.log(response.data)
+            console.log(response.data.skills)
             setSkills(response.data.skills)
          }) 
          .catch(err => {

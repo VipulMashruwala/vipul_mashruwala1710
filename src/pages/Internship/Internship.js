@@ -13,7 +13,7 @@ const Internship = () => {
             method: 'GET',
          })
          .then(response => {
-            // console.log(response.data)
+            console.log(response.data.internship)
             setInternship(response.data.internship)
          }) 
          .catch(err => {

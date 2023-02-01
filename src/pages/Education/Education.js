@@ -12,7 +12,7 @@ const Education = () => {
             method: 'GET',
         })
         .then(response => {
-            // console.log(typeof(response.data.education))
+            console.log(response.data.education)
             setEducation(response.data.education)
         }) 
         .catch(err => {

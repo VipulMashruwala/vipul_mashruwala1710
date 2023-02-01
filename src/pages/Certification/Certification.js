@@ -13,7 +13,7 @@ const Certification = () => {
             method: 'GET',
          })
          .then(response => {
-            // console.log(response.data)
+            console.log(response.data.certification)
             setCertification(response.data.certification)
          }) 
          .catch(err => {

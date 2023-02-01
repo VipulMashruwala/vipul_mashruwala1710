@@ -19,6 +19,7 @@ const SectionImage = () =>{
         responseType: 'blob'
      })
      .then(response => {
+      console.log(response)
         fileDownload(response.data,'resume.pdf');
         toast.success('Resume Downloaded Successfully!', {
           position: toast.POSITION.TOP_RIGHT

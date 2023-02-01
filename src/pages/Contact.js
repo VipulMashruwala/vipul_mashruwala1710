@@ -35,6 +35,7 @@ const Contact = () => {
                 }
             })
             .then(response => {
+                console.log(response)
                 if(response.data['type'] === "success"){
                     toast.success(response.data['msg'], {
                         position: toast.POSITION.TOP_RIGHT
