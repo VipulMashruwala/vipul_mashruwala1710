@@ -8,7 +8,7 @@ const Education = () => {
 
     useEffect(() => {
         axios({
-            url: '/portfolio/education',
+            url: 'https://portfolio-server-seven-self.vercel.app/portfolio/education',
             method: 'GET',
         })
         .then(response => {

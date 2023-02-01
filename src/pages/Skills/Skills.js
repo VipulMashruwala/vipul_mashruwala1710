@@ -9,7 +9,7 @@ const Skills = () => {
 
     useEffect(() => {
         axios({
-            url: '/portfolio/skills',
+            url: 'https://portfolio-server-seven-self.vercel.app/portfolio/skills',
             method: 'GET',
          })
          .then(response => {

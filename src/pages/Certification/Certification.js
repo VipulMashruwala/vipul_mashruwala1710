@@ -9,7 +9,7 @@ const Certification = () => {
 
     useEffect(() => {
         axios({
-            url: '/portfolio/certifications',
+            url: 'https://portfolio-server-seven-self.vercel.app/portfolio/certifications',
             method: 'GET',
          })
          .then(response => {

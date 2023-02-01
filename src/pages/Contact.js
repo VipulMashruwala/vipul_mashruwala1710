@@ -27,7 +27,7 @@ const Contact = () => {
             }
     
             axios({
-                url: '/contact',
+                url: 'https://portfolio-server-seven-self.vercel.app/contact',
                 method: 'POST',
                 data: JSON.stringify(contact_data),
                 headers: {

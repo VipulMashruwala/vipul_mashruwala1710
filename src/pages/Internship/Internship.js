@@ -9,7 +9,7 @@ const Internship = () => {
 
     useEffect(() => {
         axios({
-            url: '/portfolio/internship',
+            url: 'https://portfolio-server-seven-self.vercel.app/portfolio/internship',
             method: 'GET',
          })
          .then(response => {

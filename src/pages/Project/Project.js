@@ -17,7 +17,7 @@ const Project = () => {
 
     useEffect(() => {
         axios({
-            url: '/portfolio/project',
+            url: 'https://portfolio-server-seven-self.vercel.app/portfolio/project',
             method: 'GET',
          })
          .then(response => {

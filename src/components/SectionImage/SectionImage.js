@@ -14,7 +14,7 @@ const SectionImage = () =>{
 
     const downloadCV = () =>{
       axios({
-        url: '/download',
+        url: 'https://portfolio-server-seven-self.vercel.app/download',
         method: 'GET',
         responseType: 'blob'
      })
